@@ -7,7 +7,7 @@ from aiogram.utils import executor
 
 user_memory = {}
 
-API_TOKEN = "7297929939:AAFMlWHcVnlgrQqu-ZIvesd8-Eeltt9Ebh8"
+API_TOKEN = input("BotToken: ")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
